@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:tacorder/main.dart';
 import 'package:tacorder/appbar.dart';
 
 class MainPage extends StatefulWidget {
   MainPage() : super();
- 
+
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
 class _MyHomePageState extends State<MainPage> {
-  
 
   @override
   Widget build(BuildContext context) {
@@ -21,8 +19,8 @@ class _MyHomePageState extends State<MainPage> {
     // than having to individually change instances of widgets.
     return Scaffold(
       appBar: new ApplicationBar().getBar(),
-      //body: //PlaceHolder for widget of mainscreen. 
+      //body: //PlaceHolder for widget of mainscreen.
     );
-    
+
   }
 }
