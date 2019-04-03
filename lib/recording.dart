@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tacorder/appbar.dart';
+import 'package:flutter_sound/flutter_sound.dart';
 
 class RecordingScreen extends StatefulWidget{
   RecordingScreen() : super ();
@@ -25,4 +26,13 @@ class _RecordingScreenState extends State<RecordingScreen> {
     );
     
   }
+}
+
+class AudioHandler{
+  static FlutterSound flutterSound;
+  
+
+  static bool _isRecording;
+  static bool _isPlaying;
+
 }
