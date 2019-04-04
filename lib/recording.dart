@@ -22,7 +22,11 @@ class _RecordingScreenState extends State<RecordingScreen> {
     // than having to individually change instances of widgets.
     return Scaffold(
       appBar: new ApplicationBar().getBar(),
-      //body: //PlaceHolder for widget of mainscreen. 
+      body: ListView(<Widget>[
+        
+      ],
+
+      ),
     );
     
   }
